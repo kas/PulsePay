@@ -26,6 +26,20 @@
     <script src="js/cart.js"></script>
     <script>
         $(document).foundation();
+        /*
+
+CHECK FOR AUTHENTICATED NYMI
+
+*/
+
+var checkNymi = function() {
+    $.get("/checkNymi", function(data) {
+        console.log(data);
+    });
+};
+
+setInterval(checkNymi, 400);
+
     </script>
 </body>
 

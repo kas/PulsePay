@@ -13,8 +13,6 @@ app.use(bodyParser.urlencoded({
   extended: true // for multi-objects request
 }));
 
-
-
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Credentials", "true");
@@ -27,6 +25,26 @@ app.use(function(req, res, next) {
 var root = __dirname;
 
 app.use("/website", express.static("website")); // If user goes to domain.com/website, we serve them the website folder
+
+var nymiAuthed = false;
+app.post("/authenticateNymi", function(req, res) {
+  console.log("--- NYMI AUTHENTICATED ---");
+  nymiAuthed = true; // when this is posted, it is authenticated
+});
+
+// Check if nymi authenticated
+app.get("/checkNymi", function(req, res) {
+  if (nymiAuthed) {
+    res.send({
+      authed: true
+    });
+  }
+  else {
+    res.send({
+      authed: false
+    });
+  }
+});
 
 var transactionMade = false;
 var transactionData = null;
@@ -42,6 +60,7 @@ var vantivRequest = function(data, callback) {
       callback(body);
       transactionMade = true;
       transactionData = body;
+      transactionData.amount = amount;
       console.log("Transaction Made");
     }
     else {
@@ -49,10 +68,11 @@ var vantivRequest = function(data, callback) {
     }
   });
 };
-
+var amount = 0;
 app.post('/pay', function(req, res) {
   if (req.body !== null) {
     console.log(req.body);
+    amount = req.body.Transaction.TransactionAmount;
     vantivRequest(req.body, function(resp) {
       res.send(resp);
     });
@@ -63,7 +83,8 @@ app.post('/pay', function(req, res) {
 });
 
 app.get("/trans.html", function(req, res) {
-  transactionMade = false;
+  transactionMade = false; // reset demo
+  nymiAuthed = false; // reset demo
   res.sendfile(path.resolve('trans.html'));
 });
 

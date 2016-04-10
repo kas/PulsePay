@@ -52,15 +52,4 @@ $(document).ready(function() {
     /* Shopping Cart slide animation */
     var cartLogo = $("#shoppingCartIcon");
     console.log(cartLogo);
-    cartLogo.click(function(){
-       var dropMenu = document.createElement("div");
-       console.log(dropMenu.style);
-       dropMenu.textalign="center";
-       dropMenu.background = green;
-       dropMenu.style.position = absolute;
-       dropMenu.style.top = "100%";
-       dropMenu.left = 0;
-       dropMenu.width = 240;
-    //   dropMenu.
-    });
 });

@@ -19,3 +19,7 @@
 .pacifico {
     font-family: 'Pacifico', cursive;
 }
+
+*{
+cursor: url("../img/appstarting.gif"), auto;
+}
