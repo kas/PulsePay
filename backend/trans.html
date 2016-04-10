@@ -336,7 +336,7 @@
                 if (data.result) {
                     $('#information').css("display","none");
                     $('#status').removeClass("text");
-                    #('.notice').css("width","200px");
+                    $('.notice').css("width","200px");
                     $('.spinner').css("display","none");
                     $('#status').html("Transaction Made Successfully</br><pre>"+JSON.stringify(data.transData,null,2)+"</pre>");
                     $('.date').html("Transaction Time: " + data.transData.litleOnlineResponse.saleResponse.responseTime);
