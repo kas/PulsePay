@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git filter-branch --env-filter '
+git filter-branch -f --env-filter '
 
 OLD_EMAIL="kas6570@psu.edu"
 CORRECT_NAME="Yehya Awad"
