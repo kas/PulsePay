@@ -52,9 +52,13 @@ $(document).ready(function() {
     /* Shopping Cart slide animation */
     var cartLogo = $("#shoppingCartIcon");
     console.log(cartLogo);
+    
+    
+    
+    
 });
 
-drosole.
+dro
 
 
 
