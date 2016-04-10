@@ -1,5 +1,5 @@
 {
-  "name": "vantiv home payment",
+  "name": "vantiv_home_payment",
   "version": "0.0.1",
   "description": "Allows users to purchase online items with the nymi armband",
   "main": "app.js",
@@ -29,6 +29,7 @@
   "dependencies": {
     "express": "^3.4.4",
     "body-parser": "^1.15.0",
-    "nodemailer": "^2.3.1"
+    "nodemailer": "^2.3.1",
+    "request":"*"
   }
 }
