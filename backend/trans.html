@@ -4,13 +4,14 @@
     <title>Page Title</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css" />
     <style type="text/css">
-        html{
-              font-family: 'Roboto Slab';
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  text-rendering: optimizelegibility;
+        html {
+            font-family: 'Roboto Slab';
+            font-weight: 300;
+            -webkit-font-smoothing: antialiased;
+            -moz-font-smoothing: antialiased;
+            text-rendering: optimizelegibility;
         }
+        
         body {
             margin: 0 auto;
             padding: 0;
@@ -51,8 +52,8 @@
             height: 10px;
             background-color: #2B2929;
             border-radius: 50px;
-            opacity:0;
-            transition:all 0.8s ease-in-out;
+            opacity: 0;
+            transition: all 0.8s ease-in-out;
         }
         
         .receipt {
@@ -163,26 +164,99 @@
             text-align: left;
             padding-left: 10px;
         }
-        pre{
-            position: absolute;
-            right: 10px;
-                margin-top: 50px;
+        
+        pre {
+            position: fixed;
+            right: 0px;
         }
-        .fix{
-                margin-top: 95px;
-                position: fixed;
-                margin-left:40px;
+        
+        .fix {
+            margin-top: 95px;
+            position: fixed;
+            margin-left: 10%;
         }
-        .six{
+        
+        .six {
             margin-top: 55px;
         }
+        @font-face {
+	font-family: 'icomoon';
+	src:url('http://s3.amazonaws.com/icomoon.io/4/Loading/icomoon.eot?-9haulc');
+	src:url('http://s3.amazonaws.com/icomoon.io/4/Loading/icomoon.eot?#iefix-9haulc') format('embedded-opentype'),
+		url('http://s3.amazonaws.com/icomoon.io/4/Loading/icomoon.woff?-9haulc') format('woff'),
+		url('http://s3.amazonaws.com/icomoon.io/4/Loading/icomoon.ttf?-9haulc') format('truetype'),
+		url('http://s3.amazonaws.com/icomoon.io/4/Loading/icomoon.svg?-9haulc#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spinner:before {
+	content: "\e000";
+}
+.icon-spinner-2:before {
+	content: "\e001";
+}
+.icon-spinner-3:before {
+	content: "\e002";
+}
+.icon-spinner-4:before {
+	content: "\e003";
+}
+.icon-spinner-5:before {
+	content: "\e004";
+}
+.icon-spinner-6:before {
+	content: "\e005";
+}
+.icon-spinner-7:before {
+	content: "\e006";
+}
+
+@keyframes anim-rotate {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.spinner {
+	display: inline-block;
+	font-size:4em;
+	height: 1em;
+	line-height: 1;
+	margin: .5em;
+	animation: anim-rotate 2s infinite linear;
+	color: #fff;
+	text-shadow: 0 0 .25em rgba(255,255,255, .3);
+}
+.spinner--steps {
+	animation: anim-rotate 1s infinite steps(8);
+}
+.spinner--steps2 {
+	animation: anim-rotate 1s infinite steps(12);
+}
     </style>
 </head>
 
 <body>
     <div class="row">
         <div class="three columns"></div>
-        <span class="fix" id="information"></span>
+        <span class="fix" id="information"></span><div class="spinner icon-spinner-2" aria-hidden="true"></div>
         <div class="fix six columns" id="status">No Transaction</div>
         <div class="three columns"></div>
     </div>
@@ -246,6 +320,7 @@
                     $('.total').html(data.transData.amount);
                     $('.stats_id').html(data.transData.litleOnlineResponse.saleResponse.message);
                     $('.trans_id').html(data.transData.litleOnlineResponse.saleResponse.TransactionID);
+                    $('.tab').css("opacity", "1");
                     $('.receipt').css("opacity", "1");
                     $('.receipt').css("margin", "-5px auto");
                 }
