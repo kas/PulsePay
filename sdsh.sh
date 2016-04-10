@@ -2,7 +2,7 @@
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="kenneth.schnall@gmail.com"
+OLD_EMAIL="kas6570@psu.edu"
 CORRECT_NAME="Yehya Awad"
 CORRECT_EMAIL="yehyaawad@hotmail.com"
 
