@@ -1,0 +1,4 @@
+.column, .columns {
+	min-height: 1px;
+	text-align:center;
+}

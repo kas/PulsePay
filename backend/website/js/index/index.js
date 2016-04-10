@@ -31,3 +31,11 @@
     "ExpirationYear": "16"
   }
 }*/
+
+$.ajax({
+  type: "POST",
+  url: url,
+  data: data,
+  success: success,
+  dataType: dataType
+});
