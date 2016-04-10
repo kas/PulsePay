@@ -245,6 +245,7 @@
     color: #fff;
     text-shadow: 0 0 .25em rgba(255,255,255, .3);
     text-align: center;
+    transition:all 1.2s ease-in-out;
 }
 .spinner--steps {
 	animation: anim-rotate 1s infinite steps(8);
@@ -301,9 +302,11 @@
     setInterval(function() {
         if (counter % 2 == 0) {
             $('#information').html('Checking status of transaction...');
+            $(".spinner").css("opacity","1");
         }
         else {
             $('#information').html("&nbsp");
+            $(".spinner").css("opacity","0");
         }
         counter++;
         console.log(counter);
