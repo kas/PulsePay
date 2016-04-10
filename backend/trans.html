@@ -171,7 +171,7 @@
         }
         
         .fix {
-            margin-top: 95px;
+            margin-top: 125px;
             position: fixed;
             margin-left: 10%;
         }
@@ -237,7 +237,7 @@
 .spinner {
     position: absolute;
     display: inline-block;
-    font-size: 8em;
+    font-size: 9em;
     height: 1em;
     line-height: 1;
     margin: 45px 0 0 980px;
@@ -264,7 +264,7 @@
   padding: 0 10px;}
   .notice{
       width: 80%;
-    height: 200px;
+    height: 250px;
     background-color: rgba(0,0,0,0.3);
     margin: 10% auto;
     display: block;
@@ -336,7 +336,11 @@
                 if (data.result) {
                     $('#information').css("display","none");
                     $('#status').removeClass("text");
-                    $('.notice').css("width","200px");
+                    $('.notice').css("width","300px");
+                    $('.notice').css("height","100px");
+                    $('.notice').css("margin","0");
+                    $('.notice').css("position","absolute");
+                    $('.notice').css("background-color","rgba(0,0,0,0)");
                     $('.spinner').css("display","none");
                     $('#status').html("Transaction Made Successfully</br><pre>"+JSON.stringify(data.transData,null,2)+"</pre>");
                     $('.date').html("Transaction Time: " + data.transData.litleOnlineResponse.saleResponse.responseTime);

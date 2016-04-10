@@ -4,10 +4,20 @@ CHECK FOR AUTHENTICATED NYMI
 
 */
 
-var checkNymi = function() {
-    $.get("/checkNymi", function(data) {
-        console.log(data);
-    });
+var nymi = {};
+
+nymi.onAuthenticated = function() {
+    console.log("AUTHENTICATED NYMI");
 };
 
-setInterval(checkNymi, 400);
+var nymiAuthInterval = setInterval(function() {
+    $.get("/checkNymi", function(data) {
+        if (data.authed) {
+            nymi.onAuthenticated();
+            clearInterval(nymiAuthInterval);
+        }
+        else {
+            // not authenticated
+        }
+    });
+}, 400);

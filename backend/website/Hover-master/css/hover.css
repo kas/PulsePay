@@ -4897,11 +4897,17 @@
 #front-check-out{
     background:green;
     position: absolute;
-    width:;
+    /*width:;*/
     top:4.99%;
     left:78.8%;
+    border:3px black solid;
+    border-radius:3px;
 }
 
 #check-out-image{
-  width:30%;
+  width:20%;
+}
+
+#check-out-description{
+  float:right;
 }
