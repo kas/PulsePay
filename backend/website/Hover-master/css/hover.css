@@ -4894,20 +4894,20 @@
   cursor:pointer;
 }
 
-#front-check-out{
-    background:green;
-    position: absolute;
+/*#front-check-out{*/
+/*    background:green;*/
+/*    position: absolute;*/
     /*width:;*/
-    top:4.99%;
-    left:78.8%;
-    border:3px black solid;
-    border-radius:3px;
-}
+/*    top:4.99%;*/
+/*    left:78.8%;*/
+/*    border:3px black solid;*/
+/*    border-radius:3px;*/
+/*}*/
 
-#check-out-image{
-  width:20%;
-}
+/*#check-out-image{*/
+/*  width:20%;*/
+/*}*/
 
-#check-out-description{
-  float:right;
-}
+/*#check-out-description{*/
+/*  float:right;*/
+/*}*/
