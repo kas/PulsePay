@@ -235,17 +235,18 @@
 	}
 }
 .spinner {
-	position: absolute;
+    position: absolute;
     display: inline-block;
-    font-size: 4em;
+    font-size: 8em;
     height: 1em;
     line-height: 1;
-    margin: 78px 0 0 380px;
+    margin: 45px 0 0 980px;
     animation: anim-rotate 2s infinite linear;
     color: #fff;
     text-shadow: 0 0 .25em rgba(255,255,255, .3);
     text-align: center;
-    transition:all 1.2s ease-in-out;
+    transition: all 0.9s ease-in-out;
+    opacity: 0;
 }
 .spinner--steps {
 	animation: anim-rotate 1s infinite steps(8);
@@ -253,15 +254,30 @@
 .spinner--steps2 {
 	animation: anim-rotate 1s infinite steps(12);
 }
+.text {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 58px;
+  color: #fff;
+  padding: 0 10px;}
+  .notice{
+      width: 80%;
+    height: 200px;
+    background-color: rgba(0,0,0,0.3);
+    margin: 10% auto;
+    display: block;
+  }
     </style>
 </head>
 
 <body>
     <div class="row">
-        <div class="three columns"></div>
-        <span class="fix" id="information"></span><div class="spinner icon-spinner-2" aria-hidden="true"></div>
-        <div class="fix six columns" id="status">No Transaction</div>
-        <div class="three columns"></div>
+        <div class="notice">
+        <span class="fix text" id="information"></span><div class="spinner icon-spinner-2" aria-hidden="true"></div>
+        <div class="fix six columns text" id="status">No Transaction</div>
+        </div>
     </div>
     <div class="container">
         <div class="tab"></div>
@@ -328,6 +344,7 @@
                     $('.tab').css("opacity", "1");
                     $('.receipt').css("opacity", "1");
                     $('.receipt').css("margin", "-5px auto");
+                    return false;
                 }
                 else {
                     $('#status').text("No Transaction");

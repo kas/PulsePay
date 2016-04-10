@@ -53,12 +53,11 @@ $(document).ready(function() {
     var cartLogo = $("#shoppingCartIcon");
     console.log(cartLogo);
     
-    
-    
+    var shoppingCart = $("#front-check-out");
+    // shoppingCart.hide();
     
 });
 
-dro
 
 
 
