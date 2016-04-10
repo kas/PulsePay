@@ -4893,3 +4893,10 @@
   background:green;
   cursor:pointer;
 }
+
+#front-check-out{
+    background:blue;
+    position: absolute;
+    top:4.99%;
+    left:78.8%;
+}
