@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css" />
+</head>
+
+<body>
+    <div class="row">
+        <div class="three columns"></div>
+        <span id="information"></span><div class="six columns" id="status">No Transaction</div>
+        <div class="three columns"></div>
+    </div>
+
+</body>
+<script src="/website/js/vendor/jquery.js"></script>
+<script type="text/javascript">
+    var counter = 0;
+    setInterval(function() {
+        if (counter % 2 == 0) {
+            $('#information').text('Checking status of transaction...');
+        }
+        else {
+            $('#information').text("");
+        }
+        counter++;
+        console.log(counter);
+    }, 1500);
+
+    setInterval(function() {
+        $.ajax({
+            url: '/transStatus',
+            type: 'get',
+            success: function(data) {
+                if (data.result) {
+                    $('#status').html("Transaction Made Successfully</br><pre>Transaction ID: "+data.transData.litleOnlineResponse.saleResponse["@id"]+"</br>Customer ID: "+data.transData.litleOnlineResponse.saleResponse["@customerId"]+"</pre>");
+                }
+                else {
+                    $('#status').text("No Transaction");
+                }
+            }
+        })
+    }, 500);
+</script>
+
+</html>

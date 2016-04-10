@@ -4882,7 +4882,21 @@
 .button {
     display: inline-block;
     padding: 1em;
-    background-color: #79BD9A;
+    background-color: #248f24;
     text-decoration: none;
     color: white;
+    width:100%;
+}
+
+#shoppingCartIcon{
+    display: inline-block;
+    padding: 7px;
+    background-color: #248f24;
+    text-decoration: none;
+    color: white;
+    cursor:pointer;
+}
+
+#header h1{
+  font-size: 2.35em;
 }

@@ -7,7 +7,7 @@ var http = require('http');
 var querystring = require('querystring');
 var app = express();
 var request = require('request');
-
+var path = require('path');
 
 app.use(bodyParser.urlencoded({
   extended: true // for multi-objects request
@@ -28,6 +28,8 @@ var root = __dirname;
 
 app.use("/website", express.static("website")); // If user goes to domain.com/website, we serve them the website folder
 
+var transactionMade = false;
+var transactionData = null;
 var vantivRequest = function(data, callback) {
   request.post({
     url: 'https://apis.cert.vantiv.com/payment/sp2/credit/v1/sale',
@@ -38,6 +40,9 @@ var vantivRequest = function(data, callback) {
   }, function(err, httpResponse, body) {
     if (!err) {
       callback(body);
+      transactionMade = true;
+      transactionData = body;
+      console.log("Transaction Made");
     }
     else {
       console.error("Error in retrieving information from Vantiv");
@@ -54,6 +59,26 @@ app.post('/pay', function(req, res) {
   }
   else {
     console.log("Request json object is empty.");
+  }
+});
+
+app.get("/trans.html", function(req, res) {
+  transactionMade = false;
+  res.sendfile(path.resolve('trans.html'));
+});
+
+app.get('/transStatus', function(req, res) {
+  //console.log("transStatus: " + transactionMade);
+  if (transactionMade) {
+    res.send({
+      result: true,
+      transData: transactionData
+    });
+  }
+  else {
+    res.send({
+      result: false
+    });
   }
 });
 
