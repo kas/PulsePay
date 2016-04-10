@@ -10,7 +10,7 @@ var request = require('request');
 
 
 app.use(bodyParser.urlencoded({
-  extended: true  // for multi-objects request
+  extended: true // for multi-objects request
 }));
 
 
@@ -38,7 +38,8 @@ var vantivRequest = function(data, callback) {
   }, function(err, httpResponse, body) {
     if (!err) {
       callback(body);
-    }else{
+    }
+    else {
       console.error("Error in retrieving information from Vantiv");
     }
   });
@@ -50,7 +51,8 @@ app.post('/pay', function(req, res) {
     vantivRequest(req.body, function(resp) {
       res.send(resp);
     });
-  } else {
+  }
+  else {
     console.log("Request json object is empty.");
   }
 });

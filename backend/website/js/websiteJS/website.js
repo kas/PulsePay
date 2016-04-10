@@ -27,7 +27,7 @@ $(document).ready(function(){
    var buttons = $("hvr-icon-float-away");
    
    /* The buttons click functions */
-   buttons.click(function(){
-       
+   buttons.each(function(key, val){
+       console.log(val);
    });
 });

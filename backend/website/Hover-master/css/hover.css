@@ -3803,7 +3803,7 @@
   padding-right: 2.2em;
 }
 .hvr-icon-pulse-grow:before {
-  content: "\f015";
+  content: "\f055";
   position: absolute;
   right: 1em;
   padding: 0 1px;
@@ -4876,4 +4876,13 @@
 .hvr-curl-bottom-left:hover:before, .hvr-curl-bottom-left:focus:before, .hvr-curl-bottom-left:active:before {
   width: 25px;
   height: 25px;
+}
+
+/*Modifying Button Style*/
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #79BD9A;
+    text-decoration: none;
+    color: white;
 }
