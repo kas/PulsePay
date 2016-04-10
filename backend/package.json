@@ -1,0 +1,34 @@
+{
+  "name": "vantiv home payment",
+  "version": "0.0.1",
+  "description": "Allows users to purchase online items with the nymi armband",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kas/HackPSU"
+  },
+  "keywords": [
+    "vantiv",
+    "home payment",
+    "payment",
+    "online purchase",
+    "purchase"
+  ],
+  "author": [
+      "Hozaifa Abdalla <Abdallahozaifa19527@gmail.com> (http://hozaifaabdalla.com/)",
+      "Kenneth Schnall <kas6570@psu.edu> (https://kensch.com/)",
+      "Yehya Awad <yehyaawad.kip@gmail.com> (http://www.yehyaawad.com)",
+      "Hansel Lobo <hcl5041@psu.edu>",
+      "xiaoyu zhou <xiaoyuz2011@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kas/HackPSU/issues"
+  },
+  "homepage": "https://github.com/kas/HackPSU#readme",
+  "dependencies": {
+    "express": "^3.4.4",
+    "body-parser": "^1.15.0",
+    "nodemailer": "^2.3.1"
+  }
+}
