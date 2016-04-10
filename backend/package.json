@@ -1,7 +1,7 @@
 {
   "name": "vantiv_home_payment",
   "version": "0.0.1",
-  "description": "Allows users to purchase online items with the nymi armband",
+  "description": "Allows users to purchase online items with the Nymi Band",
   "main": "app.js",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   ],
   "author": [
       "Hozaifa Abdalla <Abdallahozaifa19527@gmail.com> (http://hozaifaabdalla.com/)",
-      "Kenneth Schnall <kas6570@psu.edu> (https://kensch.com/)",
+      "Kenneth Schnall <kas6570@psu.edu> (https://kensch.com)",
       "Yehya Awad <yehyaawad.kip@gmail.com> (http://www.yehyaawad.com)",
       "Hansel Lobo <hcl5041@psu.edu>",
       "xiaoyu zhou <xiaoyuz2011@gmail.com>"

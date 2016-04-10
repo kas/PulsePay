@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="css/index/mod.css">
       <link href="Hover-master/css/hover.css" rel="stylesheet" media="all">
       <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-      <link href="path/to/opentip.css" rel="stylesheet" type="text/css" />
+      <!--<link href="path/to/opentip.css" rel="stylesheet" type="text/css" />-->
 </head>
 
 <body>
@@ -22,12 +22,20 @@
                   </div>
                   <div class="small-6 text-right column">
                         <i id="shoppingCartIcon" class="fi-shopping-cart"></i>
+                        <i id="checkout-button" class="fi-dollar-bill"></i>
                   </div>
+                  
             </div>
       </div>
       <div id="front-check-out">
             <div id="product">
-
+                  <ul>
+                    <li class="dropdown">
+                      <a href="" class="dropbtn" onclick="myFunction()">Dropdown</a>
+                      <div class="dropdown-content" id="myDropdown">
+                      </div>
+                    </li>
+                  </ul>
             </div>
       </div>
       <div class="row">
@@ -70,8 +78,10 @@
       <script src="js/vendor/jquery.js"></script>
       <script src="js/vendor/foundation.js"></script>
       <script src="js/cart.js"></script>
+      <script type="text/javascript" src="js/shopping/shoppingcart.js"></script>
       <script type="text/javascript" src="js/websiteJS/website.js"></script>
       <script type="text/javascript" src="js/nymi/authentication.js"></script>
+      <!--<script src="path/to/adapter-jquery.js"></script>-->
       <script>
             $(document).foundation();
       </script>

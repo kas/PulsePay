@@ -79,4 +79,4 @@ var callback = function(report){
   // do whatever with the report
 };
 
-pay.send(amount, callback);
+//pay.send(amount, callback);

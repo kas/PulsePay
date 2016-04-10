@@ -1,41 +1,70 @@
 // when user clicks product link on index, this function gets invoked which opens a new product.html and fills in the corresponding fields for the product
 
 /* The entire shop */
-var shop = {};
+window.shop = {};
 
 /* Empty shopping cart */
-shop.cart = [];
+shop._cart = [];
 
 /* If the shopping cart exist retrieve it, otherwise create it */
-if (localStorage.getItem("cart") !== null) {
-    shop.cart = JSON.parse(localStorage.getItem("cart"));
+if (sessionStorage.getItem("cart") !== null) {
+    shop._cart = JSON.parse(sessionStorage.getItem("cart"));
 }
 else {
-    localStorage.setItem("cart", JSON.stringify(shop.cart));
+    sessionStorage.setItem("cart", JSON.stringify(shop._cart));
 }
 
-/* Adds an item to the shopping cart */
-shop.add = function(image, title, price, descr) {
-    var product = {
+// Updates the cart from storage
+shop.updateStorage = function(cart) {
+    shop._cart = cart;
+    sessionStorage.setItem("cart", JSON.stringify(cart));
+};
+
+// Loads all stored products into the cart
+shop.loadFromStorage = function() {
+    shop._cart = JSON.parse(sessionStorage.getItem("cart"));
+};
+
+// Product constructor
+// use: var x = new shop.Product(...);
+shop.Product = function(image, title, price, descr) {
+    return {
         image: image,
         title: title,
         price: price,
         descr: descr
     };
-    var cart = JSON.parse(localStorage.getItem("cart"));
-    cart.push(product);
-    localStorage.setItem("cart", JSON.stringify(cart));
+};
+
+/* Adds an item to the shopping cart */
+shop.add = function(image, title, price, descr) {
+    var product = new shop.Product(image, title, price, descr);
+    shop.loadFromStorage();
+    shop._cart.push(product);
+    shop.updateStorage(shop._cart);
+};
+
+/* Removes an item using the title */
+shop.remove = function(title) {
+    var cart = shop.getAll();
+    var newCart = [];
+    for (var i = 0; i < cart.length; i++) {
+        if (cart[i].title !== title) {
+            newCart.push(cart[i]);
+        }
+    }
+    shop.updateStorage(newCart);
 };
 
 /* Returns an array with all the products */
 shop.getAll = function() {
-    var cart = JSON.parse(localStorage.getItem("cart"));
-    return cart;
+    shop.loadFromStorage();
+    return shop._cart;
 };
 
 /* Returns the a product through the title */
 shop.get = function(title) {
-    var cart = JSON.parse(localStorage.getItem("cart"));
+    var cart = shop.getAll();
     for (var i = 0; i < cart.length; i++) {
         if (cart[i].title === title) {
             return cart[i];
@@ -43,9 +72,3 @@ shop.get = function(title) {
     }
     return null;
 };
-
-/* How to use the shopping cart */
-/* Image, Title, Price, Description */
-shop.add("bike.jpeg", "Mountain Bike", 10.2, "Its cool"); // adds the product
-shop.getAll(); // returns an array of all the products
-shop.get("Mountain Bike"); // returns the whatever product your looking for

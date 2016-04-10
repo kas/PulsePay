@@ -62,8 +62,7 @@ var vantivRequest = function(data, callback) {
       transactionData = body;
       transactionData.amount = amount;
       console.log("Transaction Made");
-    }
-    else {
+    } else {
       console.error("Error in retrieving information from Vantiv");
     }
   });
@@ -78,7 +77,7 @@ app.post('/pay', function(req, res) {
     });
   }
   else {
-    console.log("Request json object is empty.");
+    console.log("Request JSON is empty.");
   }
 });
 
