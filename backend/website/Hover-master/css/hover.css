@@ -4895,8 +4895,13 @@
 }
 
 #front-check-out{
-    background:blue;
+    background:green;
     position: absolute;
+    width:;
     top:4.99%;
     left:78.8%;
+}
+
+#check-out-image{
+  width:30%;
 }
