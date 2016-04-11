@@ -37,9 +37,9 @@ $(document).ready(function() {
         
         item.appendChild(image);
         item.appendChild(title);
-        if($("button").length === 0){
+        if ($("button").length === 0) {
             shoppingCart.append(item);
-        }else{
+        } else {
             $("button").prepend(item);
         }
         
@@ -67,7 +67,7 @@ $(document).ready(function() {
         var checkOutButton =  document.createElement("button");
         $(checkOutButton).text("Checkout");
 
-        if(elem != undefined){
+        if (elem != undefined){
             shop.add(product.image, product.title, product.price, "");
             addItemToPage(product.image,product.title);
             $(elem).text("Added to Cart");
@@ -85,14 +85,14 @@ $(document).ready(function() {
     
     cartLogo.click(function() {
         var dropDown = $(".dropdown-content");
-        if(dropDown.is(":visible")) dropDown.hide();
-        else dropDown.show();
+        if(dropDown.is(":visible")) {
+            dropDown.hide();
+        } else {   
+            dropDown.show();
+        }
+    });
+    
+    $("#checkout-button").click(function() {
+        window.location.href = "checkout.html";
     });
 });
-
-
-
-
-
-
-

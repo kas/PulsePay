@@ -11,183 +11,7 @@
     <link rel="stylesheet" href="css/checkout/mod.css">
     <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <style type="text/css">
-        .login,
-        .signin {
-            background-color: #ddd;
-            font-family: 'Montserrat', sans-serif;
-            color: #000;
-            font-size: 14px;
-            letter-spacing: 1px;
-        }
         
-        .login {
-            opacity: 0;
-            transition: all 0.8s ease-in-out;
-            position: absolute;
-            height: 600px;
-            margin: 100px 50%;
-            top: 50%;
-            background: url(img/bg.jpg);
-            /* padding: 60px 60px; */
-            background-size: cover;
-            box-shadow: 0px 30px 60px -5px #000;
-            transform: translate3d(-50%, -50%, 0);
-        }
-        
-        form {
-            padding-top: 41px;
-        }
-        
-        .active {
-            border-bottom: 2px solid #1161ed;
-        }
-        
-        .nonactive {
-            color: rgba(255, 255, 255, 0.2);
-        }
-        
-        h2 {
-            padding-left: 12px;
-            font-size: 22px;
-            text-transform: uppercase;
-            padding-bottom: 5px;
-            letter-spacing: 2px;
-            display: inline-block;
-            font-weight: 100;
-        }
-        
-        h2:first-child {
-            padding-left: 0px;
-        }
-        
-        span {
-            text-transform: uppercase;
-            font-size: 12px;
-            opacity: 0.4;
-            display: inline-block;
-            position: relative;
-            top: -65px;
-            transition: all 0.5s ease-in-out;
-        }
-        
-        .text {
-            border: none;
-            padding: 10px 20px;
-            display: block;
-            height: 15px;
-            border-radius: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px solid rgba(255, 255, 255, 0);
-            overflow: hidden;
-            margin-top: 3px;
-            transition: all 0.5s ease-in-out;
-        }
-        
-        .text:focus {
-            outline: 0;
-            border: 2px solid rgba(255, 255, 255, 0.5);
-            border-radius: 20px;
-            background: rgba(0, 0, 0, 0);
-        }
-        
-        .text:focus + span {
-            opacity: 0.6;
-        }
-        
-        input[type="text"],
-        input[type="password"] {
-            font-family: 'Montserrat', sans-serif;
-            color: #000;
-        }
-        
-        input {
-            display: inline-block;
-            padding-top: 20px;
-            font-size: 14px;
-        }
-        
-        h2,
-        span,
-        .custom-checkbox {
-            margin-left: 20px;
-        }
-        
-        .custom-checkbox {
-            -webkit-appearance: none;
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 8px;
-            border-radius: 2px;
-            display: inline-block;
-            position: relative;
-            top: 6px;
-        }
-        
-        .custom-checkbox:checked {
-            background-color: rgba(17, 97, 237, 1);
-        }
-        
-        .custom-checkbox:checked:after {
-            content: '\2714';
-            font-size: 10px;
-            position: absolute;
-            top: 1px;
-            left: 4px;
-            color: #fff;
-        }
-        
-        .custom-checkbox:focus {
-            outline: none;
-        }
-        
-        label {
-            display: inline-block;
-            padding-top: 10px;
-            padding-left: 5px;
-            color: #000;
-        }
-        
-        .signin {
-            background-color: #1161ed;
-            color: #000;
-            width: 63%;
-            padding: 10px 20px;
-            margin: 7px auto;
-            display: block;
-            height: 39px;
-            border-radius: 20px;
-            transition: all 0.5s ease-in-out;
-            border: none;
-            text-transform: uppercase;
-        }
-        
-        .signin:hover {
-            background: #4082f5;
-            box-shadow: 0px 4px 35px -5px #4082f5;
-            cursor: pointer;
-        }
-        
-        .signin:focus {
-            outline: none;
-        }
-        
-        hr {
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            top: 85px;
-            position: relative;
-        }
-        
-        a {
-            text-align: center;
-            display: block;
-            top: 120px;
-            position: relative;
-            text-decoration: none;
-            color: #000;
-        }
-        
-        .nimyAuth {
-            background: url("img/nimy.png");
-        }
     </style>
     <style type="text/css">
         form {
@@ -337,7 +161,20 @@
             color: rgba(255, 255, 255, 0.2);
         }
         
-        .nimyAuth {
+.login {
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+    position: absolute;
+    height: 600px;
+    margin: 100px 50%;
+    top: 50%;
+    background: url(../website/img/bg.jpg);
+    /* padding: 60px 60px; */
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+    transform: translate3d(-50%, -50%, 0);
+}
+        .nymiAuth {
             z-index: 999999999;
             width: 118%;
             position: relative;
@@ -345,7 +182,7 @@
             margin: 100px 50%;
             transform: translate3d(-50%, -50%, 0);
             border-radius: 37px;
-            background: url("img/nimy.png") -312px -61px;
+            background: url("img/nymi.png") -312px -61px;
         }
         
         .or {
@@ -527,6 +364,19 @@
             right: 0;
             margin: auto;
         }
+        .nimyBig{
+            width:60%;
+            background:url(/img/pulsepay.jpg) center center;
+            margin:0 50%;
+        }
+        .checkout-total{
+            margin-top:;
+        }
+        .nimySmall{
+            width:30%;
+             background:url(/img/instruction.jpg) center center;
+             margin:50% 50%;
+        }
     </style>
 </head>
 
@@ -550,13 +400,13 @@
             <div class="small-8 columns products">
             </div>
             <div class="small-3 columns checkout">
-                <button class="checkout-button">CHECKOUT</button>
+                <button class="checkout-button">Checkout</button>
                 <h4 class="checkout-total">Total: $100.00</h4>
             </div>
         </div>
     </div>
 
-    <div class="login small-12  columns">
+    <div class="login small-12 columns">
         <h2 class="active"> sign in </h2>
         <h2 class="nonactive"> sign up </h2>
         <form>
@@ -570,8 +420,8 @@
             <button class="signin">
                 Sign In
             </button>
-            <div class="or">Or Login By</div>
-            <div class="nimyAuth"></div>
+            <div class="or">Or Authorize with Nymi</div>
+            <div class="nymiAuth"></div>
         </form>
     </div>
     <br>
@@ -580,6 +430,7 @@
     <script src="js/cart.js"></script>
     <script src="js/checkout/pay.js"></script>
     <script type="text/javascript" src="js/shopping/shoppingcart.js"></script>
+    <script type="text/javascript" src="js/nymi/authentication.js"></script>
     <script type="text/javascript">
         var cart = shop.getAll();
         var total = 0;
@@ -589,9 +440,9 @@
             var prodHtml = '<div class="row product">' +
                 '<div class="small-3 columns prod-image">' +
                 '<img src="' + prod.image + '"></img>' +
-            '</div>' +
-            '<div class="small-7 columns prod-title">' +
-            '<h3>' + prod.title + '</h3>' +
+                '</div>' +
+                '<div class="small-7 columns prod-title">' +
+                '<h3>' + prod.title + '</h3>' +
                 '</div>' +
                 '<div class="small-2 columns prod-price">' +
                 '<h3>$' + prod.price + '</h3>' +
@@ -599,45 +450,56 @@
                 '</div>';
             $(".products").append(prodHtml);
         }
-        
-        $(".checkout-total").text("Total: $"+total);
+
+        $(".checkout-total").text("Total: $" + total);
 
         $('.checkout-button').click(function() {
             $(".login").css("opacity", "1");
             $(".login").fadeIn();
         });
-        
-        $("body > div.login.small-12.columns > form > div.nimyAuth").click(function() {
-            
+
+        $("body > div.login.small-12.columns > form > div.nymiAuth").click(function() {
+            $(".login").css("opacity", "0");
+            $('#header').append('<div class="nymiBig"></div>');
+            $('#header').append('<div class="nymismall"></div>');
+            swal({
+                title: "Log-in with Nymi!",
+                text: "Please follow the instructions",
+                imageUrl: "img/instruction.jpg",
+                imageWidth: 400,
+                imageHeight: 400,
+                imageClass: "massive"
+            });
         });
     </script>
+    <style type="text/css">
+        .massive {
+            width: 500px;
+            height 500px;
+        }
+    </style>
+    
     <script>
         $(document).foundation();
         /*
         CHECK FOR AUTHENTICATED NYMI
         */
-        var bool = true;
-        var checkNymi = function() {
-            $.get("/checkNymi", function(data) {
-                console.log(data);
-                if (data.authed == true) {
-                    $('.login').css("opacity", "0");
-                    $('.login').fadeOut();
-                    if (bool) {
-                        $('#header').append('<div class="authed"><div class="check active"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="61" height="52" viewBox="0 0 61 52" class="check-icon"><path d="M56.560,-0.010 C37.498,10.892 26.831,26.198 20.617,33.101 C20.617,33.101 5.398,23.373 5.398,23.373 C5.398,23.373 0.010,29.051 0.010,29.051 C0.010,29.051 24.973,51.981 24.973,51.981 C29.501,41.166 42.502,21.583 60.003,6.565 C60.003,6.565 56.560,-0.010 56.560,-0.010 Z" id="path-1" class="cls-2" fill-rule="evenodd"/></svg></div></div>');
-                        $('#header').append('<div class="loginGood">Log in by Nymi</div>');
-                        bool = false;
-                    }
-                    $('.authed').css("opacity", "1");
-                    $('.loginGood').css("opacity", "1");
-                    pay.send(total,callback);
-                    return;
-                }
+        nymi.onAuthenticated = function() {
+            $('.authed').css("opacity", "1");
+            $('.loginGood').css("opacity", "1");
+            swal({
+                title: "Success!",
+                text: "Transaction complete!",
+                imageUrl: "img/approved.PNG",
+                imageWidth: 300,
+                imageHeight: 200,
+                width: 300
             });
+            pay.send(total, callback);
         };
-
-        setInterval(checkNymi, 400);
     </script>
 </body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" type="text/css" />
 
 </html>

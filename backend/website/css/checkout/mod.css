@@ -1,5 +1,4 @@
-.login,
-.signin {
+.login, .signin {
     background-color: rgba(57, 220, 175, 0.73);
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -13,7 +12,6 @@
     width: 28%;
     margin: 78px auto;
     padding: 60px 60px;
-
     background-size: cover;
     box-shadow: 0px 30px 60px -5px #000;
 }
@@ -171,4 +169,519 @@ a {
 
 .nimyAuth {
     background: url("img/nimy.png");
+}
+
+.login,
+.signin {
+    background-color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+form {
+    padding-top: 41px;
+}
+
+.active {
+    border-bottom: 2px solid #1161ed;
+}
+
+.nonactive {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+h2:first-child {
+    padding-left: 0px;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.4;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text {
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin-top: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {
+    opacity: 0.6;
+}
+
+input[type="text"], input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+h2, span, .custom-checkbox {
+    margin-left: 20px;
+}
+
+.custom-checkbox {
+    -webkit-appearance: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.custom-checkbox:checked {
+    background-color: rgba(17, 97, 237, 1);
+}
+
+.custom-checkbox:checked:after {
+    content: '\2714';
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    color: #fff;
+}
+
+.custom-checkbox:focus {
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: #000;
+}
+
+.signin {
+    background-color: #1161ed;
+    color: #000;
+    width: 63%;
+    padding: 10px 20px;
+    margin: 7px auto;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+.signin:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+
+.signin:focus {
+    outline: none;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    top: 85px;
+    position: relative;
+}
+
+a {
+    text-align: center;
+    display: block;
+    top: 120px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+.nymiAuth {
+    transition: all 0.9s ease-in-out;
+    background: url("img/nymi.png");
+}
+
+form {
+    padding-top: 37px;
+}
+
+.active {
+    border-bottom: 2px solid #1161ed;
+}
+
+.nonactive {
+    color: #999;
+}
+
+h2 {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+h2:first-child {
+    padding-left: 0px;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    top: -65px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text {
+    border: none;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {}
+
+input[type="text"], input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+h2,span,.custom-checkbox {
+    margin-left: 20px;
+}
+
+.custom-checkbox {
+    -webkit-appearance: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.custom-checkbox:checked {
+    background-color: rgba(17, 97, 237, 1);
+}
+
+.custom-checkbox:checked:after {
+    content: '\2714';
+    font-size: 10px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    color: #fff;
+}
+
+.custom-checkbox:focus {
+    outline: none;
+}
+
+label {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+    color: white;
+}
+
+.signin {
+    background-color: #1161ed;
+    color: #FFF;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+.signin:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+
+.signin:focus {
+    outline: none;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    top: 85px;
+    position: relative;
+}
+
+a {
+    text-align: center;
+    display: block;
+    top: 120px;
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.nymiAuth {
+    z-index: 999999999;
+    width: 118%;
+    position: relative;
+    height: 107px;
+    margin: 100px 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 37px;
+    background: url("img/nymi.png") -312px -61px;
+}
+
+.or {
+    color: transparent;
+    position: absolute;
+    width: 250px;
+    margin: 13px auto;
+    padding: 0 0 0 96px;
+}
+
+
+/* Yehya Classes */
+
+.title {
+    margin-top: 50px;
+}
+.authed {
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    margin: 22% 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.check {
+    width: 136px;
+    height: 136px;
+    background: #e5e5e5;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 13%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+}
+
+.check:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 9%;
+    left: 9%;
+    right: 9%;
+    bottom: 9%;
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-color: #60b247;
+    border-width: 0;
+    border-style: solid;
+}
+
+.check .check-icon {
+    position: absolute;
+    z-index: 3;
+    top: 31%;
+    left: 28%;
+    width: 45%;
+    fill: #e5e5e5;
+}
+
+.check.active:after {
+    -moz-transition: ease-out 0.1s all;
+    -o-transition: ease-out 0.1s all;
+    -webkit-transition: ease-out 0.1s all;
+    transition: ease-out 0.1s all;
+    border-width: 68px;
+}
+
+.check.active .check-icon {
+    fill: #fff;
+    -moz-animation: bounce 0.2s;
+    -webkit-animation: bounce 0.2s;
+    animation: bounce 0.2s;
+    -moz-animation-delay: 0.08s;
+    -webkit-animation-delay: 0.08s;
+    animation-delay: 0.08s;
+}
+
+@-moz-keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.product {
+    /*background-color: #888;*/
+    margin: 10px;
+    -webkit-box-shadow: 4px 4px 25px -1px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 4px 4px 25px -1px rgba(0, 0, 0, 0.52);
+    box-shadow: 4px 4px 25px -1px rgba(0, 0, 0, 0.52);
+}
+
+.checkout {}
+
+.checkout-button {
+    padding: 20px;
+    -webkit-box-shadow: 4px 4px 25px -1px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 4px 4px 25px -1px rgba(0, 0, 0, 0.52);
+    box-shadow: 4px 4px 25px -1px rgba(0, 0, 0, 0.52);
+    border-radius: 10px;
+    margin: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.loginGood {
+    opacity: 0;
+    transition: all 0.9s ease-in-out;
+    font-family: Khula;
+    font-size: 3em;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    display: block;
+    position: absolute;
+    color: white;
+    top: 967px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.nimyBig {
+    width: 60%;
+    background: url(img/pulsepay.jpg) center center;
+    margin: 0 50%;
+}
+
+.checkout-total {
+    margin-top:10%;
+    margin-left:21%;
+}
+
+.nimySmall {
+    width: 30%;
+    background: url(img/instruction.jpg) center center;
+    margin: 50% 50%;
 }
