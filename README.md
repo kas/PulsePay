@@ -63,5 +63,6 @@ var vantivRequest = function(data, callback) {
 
 | <a href="Hansel's website" target="_blank">**Hansel Lobo**</a> | <a href="Alan's website" target="_blank">**Xiaoyu Zhou**</a> | 
 | :---: |:---:|
-| <a href="Hansel's website" target="_blank"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/12936656_1222540204424499_4999199656490007862_n.jpg?oh=734d4f20987a7b0e44be7640abfd2cd8&amp;oe=57854664" width="200"></a>    | <a href="Alan's website" target="_blank"><img src="https://quarantinestudies.files.wordpress.com/2014/02/facebook-profile-picture-unknown-facts-about-facebook.jpg" width="200"></a> | 
-| <a href="http://github.com/hansel202" target="_blank">`github.com/hansel202`</a> | <a href="http://github.com/https://github.com/viane" target="_blank">`github.com/viane`</a> | 
+| <a href="Hansel's website" target="_blank"><img src="https://scontent.xx.fbcdn.net/v/t1.0-9/12936656_1222540204424499_4999199656490007862_n.jpg?oh=734d4f20987a7b0e44be7640abfd2cd8&amp;oe=57854664" width="200"></a>    
+| <a href="Allen's website" target="_blank"><img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12990852_10206445712801710_4553203964392502793_n.jpg?oh=bc3e359fe41ca0f50662a940fe887f92&oe=577A3EC2" width="200"></a> | 
+| <a href="http://github.com/hansel202" target="_blank">`github.com/hansel202`</a> | <a href="www.allenzdev.com" target="_blank">`Allen Zhou`</a> | 
