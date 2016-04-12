@@ -51,7 +51,7 @@ var vantivRequest = function(data, callback) {
 
 ## Awards
 ---
-- 🔃🔃🔃 Pulse Pay won first Place for Vantage API Challeng at the Pn! 🔃🔃🔃
+- 🔃🔃🔃 Pulse Pay won first Place for Vantage API Challeng at the Pensyvlvanien! 🔃🔃🔃
 ---
 
 ## Team
