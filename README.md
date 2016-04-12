@@ -21,7 +21,7 @@
 <a href="https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html" target="_blank"><img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">
 
 ---
-## Vantage API Usage
+## Vantiv API Usage
 
 ```javascript
 // Sample transaction with Vantage API
@@ -47,16 +47,16 @@ var vantivRequest = function(data, callback) {
 ```
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/kas/HackPSU`
+- Clone this repo to your local machine using `$ git clone https://github.com/kas/HackPSU`
 
 ### Awards
 ---
-<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place for Vantiv API Challenge in PSU Hackathon! <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
+<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place HackPSU: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
 ---
 
 ## Team
 
-| <a href="http://hozaifaabdalla.com" target="_blank">**Hozaifa Abdalla**</a> | <a href="http://kensch.com" target="_blank">**Kenneth Schnall**</a> | <a href="http://yehyaawad.com" target="_blank">**Yehya Awad**</a> |
+| <a href="http://hozaifaabdalla.com" target="_blank">**Hozaifa Abdalla**</a> | <a href="http://kensch.com" target="_blank">**Kenneth Schnall**</a> | <a href="http://www.yehyaawad.com" target="_blank">**Yehya Awad**</a> |
 | :---: |:---:| :---:|
 | <a href="http://hozaifaabdalla.com" target="_blank"><img src="https://cloud.githubusercontent.com/assets/10437615/14451031/7b62c078-0051-11e6-8f79-1cae306401b7.gif" width="200"></a>    | <a href="http://kensch.com" target="_blank"><img src="https://quarantinestudies.files.wordpress.com/2014/02/facebook-profile-picture-unknown-facts-about-facebook.jpg" width="200"></a> | <a href="http://yehyaawad.com" target="_blank"><img src="http://www.yehyaawad.com/img/headshot-y2.jpg" width="200"></a>  |
 | <a href="http://github.com/abdallahozaifa" target="_blank">`github.com/abdallahozaifa`</a> | <a href="http://github.com/kas" target="_blank">`github.com/kas`</a> | <a href="http://github.com/awadyehya" target="_blank">`github.com/awadyehya`</a> |
