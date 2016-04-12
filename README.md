@@ -51,7 +51,7 @@ var vantivRequest = function(data, callback) {
 
 ### Awards
 ---
-🔃🔃🔃 1st place for Vantage API Challenge in PSU Hackathon! 🔃🔃🔃
+<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place for Vantage API Challenge in PSU Hackathon! <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"></a><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"></a><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"></a>
 ---
 
 ## Team
