@@ -58,7 +58,7 @@ var vantivRequest = function(data, callback) {
 
 | <a href="http://hozaifaabdalla.com" target="_blank">**Hozaifa Abdalla**</a> | <a href="http://kensch.com" target="_blank">**Kenneth Schnall**</a> | <a href="http://yehyaawad.com" target="_blank">**Yehya Awad**</a> |
 | :---: |:---:| :---:|
-| <a href="http://hozaifaabdalla.com"><img src="https://cloud.githubusercontent.com/assets/10437615/14451031/7b62c078-0051-11e6-8f79-1cae306401b7.gif" width="150"></a>    | [![Kenneth Schnall Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://kensch.com) | [![Yehya Awad Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://yehyaawad.com)  |
+| <a href="http://hozaifaabdalla.com"><img src="https://cloud.githubusercontent.com/assets/10437615/14451031/7b62c078-0051-11e6-8f79-1cae306401b7.gif" width="200"></a>    | [![Kenneth Schnall Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://kensch.com) | [![Yehya Awad Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://yehyaawad.com)  |
 | <a href="http://github.com/abdallahozaifa" target="_blank">`github.com/abdallahozaifa`</a> | <a href="http://github.com/kas" target="_blank">`github.com/kas`</a> | <a href="http://github.com/awadyehya" target="_blank">`github.com/awadyehya`</a> |
 
 | <a href="" target="_blank">**Hansel Lobo**</a> | <a href="" target="_blank">**Xiaoyu Zhou**</a> | 
