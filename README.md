@@ -49,9 +49,9 @@ var vantivRequest = function(data, callback) {
 
 - Clone this repo to your local machine using `https://github.com/kas/HackPSU`
 
-## Awards
+### Awards
 ---
-- 🔃🔃🔃 Pulse Pay won first Place for Vantage API Challenge at the Pennsylvania State University Hackathon! 🔃🔃🔃
+🔃🔃🔃 1st place Vantage API Challenge PSU Hackathon! 🔃🔃🔃
 ---
 
 ## Team
@@ -63,10 +63,3 @@ var vantivRequest = function(data, callback) {
 
 - You can just grab their GitHub profile image URL
 - You should probably resize their picture using `?s=200` at the end of the image URL.
-
----
-## Donations (Optional)
-
-- You could include a <a href="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" target="_blank">Gratipay</a> link as well.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
