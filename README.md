@@ -21,45 +21,33 @@
 ![Recordit GIF](https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif)
 
 ---
-
-## Table of Contents (Optional)
-
-> If you're `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
-
----
-
-## Example (Optional)
+## Vantage API Usage
 
 ```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
+// Sample transaction with Vantage API
+var vantivRequest = function(data, callback) {
+  request.post({
+    url: 'https://apis.cert.vantiv.com/payment/sp2/credit/v1/sale',
+    json: data,
+    headers: {
+      'Authorization': 'VANTIV license="{license-id}"'
+    }
+  }, function(err, httpResponse, body) {
+    if (!err) {
+      callback(body);
+      transactionMade = true;
+      transactionData = body;
+      transactionData.amount = amount;
+      console.log("Transaction Made");
+    } else {
+      console.error("Error in retrieving information from Vantiv");
+    }
+  });
 };
 ```
-
----
-
-## Installation
-
-- All the `code` required to get started
-- Images of what it should look like
-
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/kas/HackPSU`
 
 ### Setup
 
