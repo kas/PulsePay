@@ -49,9 +49,9 @@ var vantivRequest = function(data, callback) {
 
 - Clone this repo to your local machine using `https://github.com/kas/HackPSU`
 
-## Features
+## Awards
 ---
-🔃🔃🔃 Pulse Pay won first Place for Vantage API Challenge! 🔃🔃🔃
+- 🔃🔃🔃 Pulse Pay won first Place for Vantage API Challeng at the Pn! 🔃🔃🔃
 ---
 
 ## Team
