@@ -59,7 +59,7 @@ var vantivRequest = function(data, callback) {
 | <a href="http://hozaifaabdalla.com" target="_blank">**Hozaifa Abdalla**</a> | <a href="http://kensch.com" target="_blank">**Kenneth Schnall**</a> | <a href="http://yehyaawad.com" target="_blank">**Yehya Awad**</a> |
 | :---: |:---:| :---:|
 | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
+| <a href="http://github.com/abdallahozaifa" target="_blank">`github.com/abdallahozaifa`</a> | <a href="http://github.com/kas" target="_blank">`github.com/kas`</a> | <a href="http://github.com/awadyehya" target="_blank">`github.com/awadyehya`</a> |
 
 - You can just grab their GitHub profile image URL
 - You should probably resize their picture using `?s=200` at the end of the image URL.
