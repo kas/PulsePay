@@ -8,7 +8,7 @@
 
 >  Pulse Pay, secure transactions, easy payment.
 
-[![INSERT YOUR GRAPHIC HERE](https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG)]()
+[![Nymi Sign In Image](https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG)]()
 
 - Pulse Pay allows easy transactions to be made securely on the web
 - Pulse Pay is easy, simple, and quick.
@@ -51,7 +51,7 @@ var vantivRequest = function(data, callback) {
 
 ### Awards
 ---
-🔃🔃🔃 1st place Vantage API Challenge PSU Hackathon! 🔃🔃🔃
+🔃🔃🔃 1st place for Vantage API Challenge in PSU Hackathon! 🔃🔃🔃
 ---
 
 ## Team
@@ -61,7 +61,7 @@ var vantivRequest = function(data, callback) {
 | [![Hozaifa Abdalla Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://hozaifaabdalla.com)    | [![Kenneth Schnall Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://kensch.com) | [![Yehya Awad Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://yehyaawad.com)  |
 | <a href="http://github.com/abdallahozaifa" target="_blank">`github.com/abdallahozaifa`</a> | <a href="http://github.com/kas" target="_blank">`github.com/kas`</a> | <a href="http://github.com/awadyehya" target="_blank">`github.com/awadyehya`</a> |
 
-| <a href="" target="_blank">**Hansel Lobo**</a> | <a href="" target="_blank">**Xiaoyu zhou**</a> | 
+| <a href="" target="_blank">**Hansel Lobo**</a> | <a href="" target="_blank">**Xiaoyu Zhou**</a> | 
 | :---: |:---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | 
-| <a href="http://github.com/abdallahozaifa" target="_blank">`github.com/abdallahozaifa`</a> | <a href="http://github.com/kas" target="_blank">`github.com/kas`</a> | 
+| [![Hansel Lobo Image](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![Xiaoyu Zhou](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | 
+| <a href="" target="_blank">`github.com/?`</a> | <a href="http://github.com/?" target="_blank">`github.com/?`</a> | 
