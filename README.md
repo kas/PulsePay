@@ -18,7 +18,7 @@
 - Users start by choosing an online site to purchase items from, add items to their shopping cart, and then head to the checkout page. 
 - When users are finished and ready to checkout items, they can sign in with the Nymi Band by clicking on it below the sign in button and double tab to finish the transaction. QUICK AND EASY 
 
-![Recordit GIF](https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif)
+<a href="https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html" target="_blank"><img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">
 
 ---
 ## Vantage API Usage
