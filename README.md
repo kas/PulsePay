@@ -1,22 +1,22 @@
-# Pulse Pay
+# PulsePay
 
 <a href="http://devpost.com/software/pulsepay"><img src="https://cloud.githubusercontent.com/assets/10437615/14449050/08da0692-003d-11e6-8660-6b3d451fadac.png" title="PulsePay" alt="PulsePay"></a>
 
-> PulsePay is a project created at the Pennsylvania State University Hackathon that revolves around an authentication system that allows safe transactions for online purcahses and combines the authentication given by the nymi band in order to secure transactions that are powered by the Vantiv API. It uses the unique heartbeat of the user to as an alternative payment option.
+> PulsePay is a project created at the Pennsylvania State University Hackathon that revolves around an authentication system that allows safe transactions for online purcahses and combines the authentication given by the Nymi Band in order to secure transactions that are powered by the Vantiv payment API. It uses the unique heartbeat of the user to as an alternative payment option.
 
-> Pulse Pay was created in 24 hours.
+> PulsePay was created in 24 hours.
 
-> Pulse Pay, secure transactions, easy payment.
+> PulsePay.  Secure transactions, easy payment.
 
 [![Nymi Sign In Image](https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG)]()
 
-- Pulse Pay allows easy transactions to be made securely on the web
-- Pulse Pay is easy, simple, and quick.
+- PulsePay allows easy transactions to be made securely on the web
+- PulsePay is easy, simple, and quick.
 
 > Demonstration
 
 - Users start by choosing an online site to purchase items from, add items to their shopping cart, and then head to the checkout page. 
-- When users are finished and ready to checkout items, they can sign in with the Nymi Band by clicking on it below the sign in button and double tab to finish the transaction. QUICK AND EASY 
+- When users are finished and ready to checkout, they can sign in with the Nymi Band by clicking on the button below the sign in button and by double tapping the Nymi Band to finish the transaction. QUICK AND EASY. 
 
 <a href="https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html" target="_blank"><img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">
 
@@ -51,7 +51,7 @@ var vantivRequest = function(data, callback) {
 
 ### Awards
 ---
-<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place HackPSU: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
+<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1^st place HackPSU: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
 ---
 
 ## Team
