@@ -56,7 +56,7 @@ var vantivRequest = function(data, callback) {
 
 ## Team
 
-| <a href="http://hozaifaabdalla.com" target="_blank">**Hozaifa Abdalla**</a> | <a href="http://kensch.com" target="_blank">**Kenneth Schnall**</a> | <a href="http://www.yehyaawad.com" target="_blank">**Yehya Awad**</a> |
+| <a href="http://hozaifaabdalla.com" target="_blank">**Hozaifa Abdalla**</a> | <a href="https://kensch.com" target="_blank">**Kenneth Schnall**</a> | <a href="http://www.yehyaawad.com" target="_blank">**Yehya Awad**</a> |
 | :---: |:---:| :---:|
 | <a href="http://hozaifaabdalla.com" target="_blank"><img src="https://cloud.githubusercontent.com/assets/10437615/14451031/7b62c078-0051-11e6-8f79-1cae306401b7.gif" width="200"></a>    | <a href="http://kensch.com" target="_blank"><img src="https://avatars0.githubusercontent.com/u/7661552?v=3&s=460" width="200"></a> | <a href="http://yehyaawad.com" target="_blank"><img src="http://www.yehyaawad.com/img/headshot-y2.jpg" width="200"></a>  |
 | <a href="http://github.com/abdallahozaifa" target="_blank">`github.com/abdallahozaifa`</a> | <a href="http://github.com/kas" target="_blank">`github.com/kas`</a> | <a href="http://github.com/awadyehya" target="_blank">`github.com/awadyehya`</a> |
