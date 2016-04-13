@@ -51,7 +51,7 @@ var vantivRequest = function(data, callback) {
 
 ### Awards
 ---
-<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place at HackPSU 2016: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
+<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place at HackPSU Spring 2016: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
 ---
 
 ## Team
