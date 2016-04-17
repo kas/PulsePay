@@ -8,7 +8,7 @@
 
 > PulsePay.  Secure transactions, easy payment.
 
-[![Nymi Sign In Image](https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG)]()
+<a href="http://devpost.com/software/pulsepay" ><img src="https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG"></a>
 
 - PulsePay allows easy transactions to be made securely on the web
 - PulsePay is easy, simple, and quick.
