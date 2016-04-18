@@ -2,7 +2,7 @@
 
 <a href="http://devpost.com/software/pulsepay"><img src="https://cloud.githubusercontent.com/assets/10437615/14449050/08da0692-003d-11e6-8660-6b3d451fadac.png" title="PulsePay" alt="PulsePay"></a>
 
-> PulsePay is a project created at the Pennsylvania State University Hackathon that revolves around an authentication system that allows safe transactions for online purcahses and combines the authentication given by the Nymi Band in order to secure transactions that are powered by the Vantiv payment API. It uses the unique heartbeat of the user as an alternative payment option.
+> PulsePay is a project created at HackPSU Spring 2016 that revolves around an authentication system that allows safe transactions for online purcahses and combines the authentication given by the Nymi Band in order to secure transactions that are powered by the Vantiv payment API. It uses the unique heartbeat of the user as an alternative payment option.
 
 > PulsePay was created in 24 hours.
 
