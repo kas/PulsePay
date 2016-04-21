@@ -1,6 +1,6 @@
 # PulsePay
 
-<a href="http://devpost.com/software/pulsepay"><img src="https://cloud.githubusercontent.com/assets/10437615/14449050/08da0692-003d-11e6-8660-6b3d451fadac.png" title="PulsePay" alt="PulsePay"></a>
+[![PulsePay logo image](https://cloud.githubusercontent.com/assets/10437615/14449050/08da0692-003d-11e6-8660-6b3d451fadac.png "PulsePay: Powered by Nymi Band and Vantiv API")](https://apideveloper.vantiv.com)
 
 > PulsePay is a service created at HackPSU Spring 2016 which lets customers authenticate their online purchases using their heartbeat.  We integrated the Nymi Armband with the Vantiv API to construct a simulated payment environment.
 
@@ -8,7 +8,7 @@
 
 > PulsePay.  Secure transactions, easy payment.
 
-<img src="https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG">
+![PulsePay sign in image](https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.png "PulsePay Sign In")
 
 - PulsePay allows easy transactions to be made securely on the web.
 - PulsePay is easy, simple, and quick.
@@ -18,7 +18,7 @@
 - Customers begin by choosing an online store to purchase items from, add items to their shopping cart, and head to the checkout page.
 - When customers are about to check out, they can choose to authenticate their purchase with the Nymi Band and double tap the Nymi Band to finish the transaction.  QUICK AND EASY. 
 
-[<img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">](https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html)
+[![PulsePay demonstration image](https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif "PulsePay Demonstration")](https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html)
 
 ---
 ## Vantiv API Usage
