@@ -1,10 +1,8 @@
-# [PulsePay](http://devpost.com/software/pulsepay)
-
-Check it out on [DevPost](http://devpost.com/software/pulsepay).
+-# PulsePay
 
 <a href="http://devpost.com/software/pulsepay"><img src="https://cloud.githubusercontent.com/assets/10437615/14449050/08da0692-003d-11e6-8660-6b3d451fadac.png" title="PulsePay" alt="PulsePay"></a>
 
-> PulsePay is a project created at HackPSU Spring 2016 that revolves around an authentication system that allows safe transactions for online purchases and combines the authentication given by the Nymi Band in order to secure transactions that are powered by the Vantiv payment API. It uses the unique heartbeat of the user as an alternative payment option.
+> PulsePay is a service created at HackPSU Spring 2016 which lets customers authenticate their online purchases using their heartbeat.  We integrated the Nymi Armband with the Vantiv API to construct a simulated payment environment.
 
 > PulsePay was created in 24 hours.
 
@@ -12,15 +10,15 @@ Check it out on [DevPost](http://devpost.com/software/pulsepay).
 
 <a href="http://devpost.com/software/pulsepay" ><img src="https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG"></a>
 
-- PulsePay allows easy transactions to be made securely on the web
+- PulsePay allows easy transactions to be made securely on the web.
 - PulsePay is easy, simple, and quick.
 
 > Demonstration
 
-- Users start by choosing an online site to purchase items from, add items to their shopping cart, and then head to the checkout page. 
-- When users are finished and ready to checkout, they can sign in with the Nymi Band by clicking on the button below the sign in button and by double tapping the Nymi Band to finish the transaction. QUICK AND EASY. 
+- Customers begin by choosing an online store to purchase items from, add items to their shopping cart, and head to the checkout page.
+- When customers are about to checkout, they can choose to authenticate their purchase with the Nymi Band and double tap the Band to finish the transaction.  QUICK AND EASY. 
 
-<a href="https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html" target="_blank"><img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">
+[<img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">](https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html)
 
 ---
 ## Vantiv API Usage
@@ -49,11 +47,11 @@ var vantivRequest = function(data, callback) {
 ```
 ### Clone
 
-- Clone this repo to your local machine using `$ git clone https://github.com/kas/PulsePay`
+- Clone this repository to your local machine using `$ git clone https://github.com/kas/PulsePay`
 
 ### Awards
 ---
-<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place at HackPSU Spring 2016: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
+<img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> Won 1st place at HackPSU Spring 2016: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
 ---
 
 ## Team
