@@ -68,6 +68,6 @@ var vantivRequest = function(data, callback) {
 
 ---
 
-## Learn more about the technologies we used
+## Learn More
 - Nymi Band: [Nymi | Convenient Authentication Anywhere](https://nymi.com/)
 - Vantiv API: [DevHub | Welcome to Vantiv API Portal](https://apideveloper.vantiv.com/)
