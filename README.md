@@ -16,7 +16,7 @@
 > Demonstration
 
 - Customers begin by choosing an online store to purchase items from, add items to their shopping cart, and head to the checkout page.
-- When customers are about to check out, they can choose to authenticate their purchase with the Nymi Band and double tap the Band to finish the transaction.  QUICK AND EASY. 
+- When customers are about to check out, they can choose to authenticate their purchase with the Nymi Band and double tap the Nymi Band to finish the transaction.  QUICK AND EASY. 
 
 [<img src="https://cloud.githubusercontent.com/assets/10437615/14449199/903382a2-003e-11e6-9cea-7d745f1e32d9.gif">](https://preview.c9users.io/yehyaawad/hackpsu2016/HackPSU/backend/website/index.html)
 
