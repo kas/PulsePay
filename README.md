@@ -45,11 +45,11 @@ var vantivRequest = function(data, callback) {
   });
 };
 ```
-### Clone
+## Clone
 
 - Clone this repository to your local machine using `$ git clone https://github.com/kas/PulsePay`
 
-### Awards
+## Awards
 ---
 <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"> 1st place at HackPSU Spring 2016: Best use of Vantiv API <img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0"><img src="http://i764.photobucket.com/albums/xx284/Futarest/owner_icongif.png" border="0">
 ---
