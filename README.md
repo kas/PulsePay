@@ -18,7 +18,7 @@ PulsePay.  Secure transactions, easy payment.
 - PulsePay allows easy transactions to be made securely on the web.
 - PulsePay is easy, simple, and quick.
 
-> Demonstration
+####Demonstration
 
 - Customers begin by choosing an online store to purchase items from, add items to their shopping cart, and head to the checkout page.
 - When customers are about to check out, they can choose to authenticate their purchase with the Nymi Band and double tap the Nymi Band to finish the transaction.
