@@ -4,11 +4,11 @@
   <img width="60%" style="background-color: black;" src="https://cloud.githubusercontent.com/assets/10437615/14449050/08da0692-003d-11e6-8660-6b3d451fadac.png">
 </p>
 
-> PulsePay is a service created at HackPSU Spring 2016 which lets customers authenticate their online purchases using their heartbeat.  We integrated the Nymi Armband with the Vantiv API to construct a simulated payment environment.
+PulsePay is a service created at HackPSU Spring 2016 which lets customers authenticate their online purchases using their heartbeat. We integrated the Nymi Armband with the Vantiv API to construct a simulated payment environment.
 
-> PulsePay was created in 24 hours.
+PulsePay was created in 24 hours.
 
-> PulsePay.  Secure transactions, easy payment.
+PulsePay.  Secure transactions, easy payment.
 
 <p align="center">
   <img width="29%" style="background-color: black;" src="https://cloud.githubusercontent.com/assets/10437615/14449090/81d3ca7e-003d-11e6-977a-829727bc5fb6.PNG">
