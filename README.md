@@ -20,7 +20,7 @@ PulsePay.  Secure transactions, easy payment.
 
 ####Demonstration
 
-- Customers begin by choosing an online store to purchase items from, add items to their shopping cart, and head to the checkout page.
+- Customers begin by choosing an online store to purchase items from, add items to their shopping cart, then head to the checkout page.
 - When customers are about to check out, they can choose to authenticate their purchase with the Nymi Band and double tap the Nymi Band to finish the transaction.
 
 ---
